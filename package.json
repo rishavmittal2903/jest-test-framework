@@ -6,10 +6,10 @@
   "scripts": {
     "test": "jest --config jest.config.js"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run test"
-    }
+  "husky":{
+	  "hooks":{
+		  "pre-commit":"npm run test"
+	  }
   },
   "keywords": [],
   "author": "",
@@ -24,5 +24,4 @@
     "jest": "^27.0.4",
     "regenerator-runtime": "^0.13.7"
   }
-
 }
