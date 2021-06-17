@@ -8,7 +8,6 @@ import {
   isUpperCaseExists,
   isLowerCaseExists,
 } from "../../utility/Utility-helper";
-
 describe("Utility-helper test suites", () => {
   test("Should return false if first name contains any special character except space and underscore", async () => {
     const input = "@#Test";
