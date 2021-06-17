@@ -8,6 +8,7 @@
     "pre-commit":"npm run test"
   },
   "keywords": [],
+  
   "author": "",
   "license": "ISC",
   "dependencies": {
