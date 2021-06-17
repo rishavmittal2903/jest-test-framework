@@ -24,6 +24,6 @@
     "husky": "^6.0.0",
     "jest": "^27.0.4",
     "regenerator-runtime": "^0.13.7"
-  },
+  }
 
 }
