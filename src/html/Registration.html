@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Garage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../style/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <div class="container reg-container">
+		<div class="row">
+			<div class="panel panel-primary">
+				<div class="panel-body">
+					<form role="form" class="mr-lft-20">
+						<div class="form-group">
+							<h3 id="create_Account">Create Your Account</h3>
+						</div>
+						<div class="form-group">
+							<label class="control-label" for="firstname" id="first_name_label">First Name</label>
+							<input id="firstname" type="text" class="form-control txt-input" >
+						</div>
+						<div class="form-group">
+							<label class="control-label" for="lastname" id="last_name_label">Last Name</label>
+							<input id="lastname" type="text" class="form-control txt-input">
+						</div>
+						<div class="form-group">
+							<label class="control-label" for="email" id="email_label">Email</label>
+							<input id="email" type="email"  class="form-control txt-input">
+						</div>
+						<div class="form-group">
+                            <label class="control-label" for="password" id="password_label">Password</label>
+                         
+                            <div class="input-container">
+                                <input id="password" type="password" class="form-control txt-input">
+                                <span class="eye-box">
+                                <i class="gg-eye"></i>
+                            </span>
+                              </div>
+						</div>
+						<div class="form-group">
+							<label class="control-label" for="confirmpassword" id="confirm_password_label">Please Re-Enter Your Password</label>
+                            <div class="input-container">
+                                <input id="confirmpassword" type="password"class="form-control txt-input">
+                                <span class="eye-box">
+                                <i class="gg-eye"></i>
+                            </span>
+                              </div>
+							
+						</div>
+						<div class="form-group">
+							<button id="createAccount" type="submit" class="btn btn-danger btn-block txt-input">Create Account</button>
+						</div>
+						<p class="form-group txt-input" data-testid="footer" id="footer">By registring you confirm that you have read and agree to our <b>Terms of Service,</b> and that you have read <b><a href="#">Privacy Policy</a></b>.</p>
+						<hr>
+						<p class="mr-lft-20 frgt-pass"><a href="#" id="forgot_password">Forgot Password?</a></p>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
